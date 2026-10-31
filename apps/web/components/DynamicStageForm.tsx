@@ -42,6 +42,7 @@ export function DynamicStageForm({
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
+    if (!stage) return; // re-narrow for the closure
     setError(null);
     setBusy(true);
     try {
