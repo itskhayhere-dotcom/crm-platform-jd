@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "CRM",
+    "slug": "crm-mobile",
+    "scheme": "crm",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.example.crm" },
+    "android": { "package": "com.example.crm" },
+    "plugins": ["expo-secure-store"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "//": "Shared TypeScript settings. Each app extends this and adds its own lib/jsx.",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@crm/core": ["./packages/core/src/index.ts"]
+    }
+  }
+}

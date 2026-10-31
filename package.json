@@ -1,0 +1,16 @@
+{
+  "name": "crm-platform",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Configurable stage-based CRM: shared backend for a website and a mobile app, Google Sheets storage with a swappable adapter.",
+  "packageManager": "pnpm@9.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:mobile": "pnpm --filter mobile start",
+    "typecheck": "tsc -b"
+  }
+}
