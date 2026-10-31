@@ -11,7 +11,7 @@
 
 import { NextResponse } from "next/server";
 import { randomUUID } from "node:crypto";
-import { getStorage } from "@crm/core";
+import { getStorage } from "@crm/core/storage";
 import type { RecordRow } from "@crm/core";
 import crmConfig from "../../../../../crm.config";
 import { getAuthUser, Unauthorized } from "../../../lib/auth";

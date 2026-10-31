@@ -9,7 +9,7 @@
  */
 
 import { NextResponse } from "next/server";
-import { getStorage } from "@crm/core";
+import { getStorage } from "@crm/core/storage";
 import { getAuthUser, Unauthorized } from "../../../../lib/auth";
 
 type Ctx = { params: Promise<{ id: string }> };

@@ -5,7 +5,8 @@
     "jsx": "preserve",
     "plugins": [{ "name": "next" }],
     "paths": {
-      "@crm/core": ["../../packages/core/src/index.ts"]
+      "@crm/core": ["../../packages/core/src/index.ts"],
+      "@crm/core/storage": ["../../packages/core/src/storage/index.ts"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "../../crm.config.ts"],
